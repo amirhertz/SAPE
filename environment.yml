@@ -1,0 +1,17 @@
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+- python>=3.8
+- pip>=21
+- scipy
+- scikit-image
+- igl
+- matplotlib
+- opencv
+- pip:
+   - tqdm
+   - imageio
+   - imageio-ffmpeg
+   - plyfile
+   - numpy-stl
